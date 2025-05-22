@@ -21,7 +21,6 @@
 
 .history-container {
   max-width: 100%;
-  margin: 2rem auto;
   padding: 2rem;
   background-color: #fef8e5;
   border: 5px double #8b5e3c;
@@ -32,7 +31,7 @@
 }
 
 .history-list a {
-  color: inherit;
+  color: inherit; 
   text-decoration: none;
   display: block;
 }
@@ -66,8 +65,5 @@
   transform: scale(1.05);
   font-weight: bold;
 }
-
-
-
 
 </style>
