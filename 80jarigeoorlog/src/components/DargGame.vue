@@ -63,11 +63,9 @@ import EndListOfItems from "@/components/EndListOfItems.vue";
 .list {
   flex: 1 1 45%;
   margin: 1rem;
-  background-color: #fffdf5;
-  border: 2px solid #d3b88c;
   border-radius: 0.75rem;
   padding: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+
 }
 
 </style>
