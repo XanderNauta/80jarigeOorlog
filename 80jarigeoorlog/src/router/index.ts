@@ -4,6 +4,7 @@ import TestView from "@/views/TestView.vue";
 import OpstandView from "@/views/OpstandView.vue";
 import VredeView from "@/views/VredeView.vue";
 import NederlandeView from "@/views/NederlandeView.vue";
+import CatFactView from "@/views/CatFactView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -36,7 +37,13 @@ const routes: Array<RouteRecordRaw> = [
     path: '/vrede',
     name: 'vrede',
     component: VredeView
+  },
+  {
+    path: '/cats',
+    name: '/cats',
+    component: CatFactView
   }
+
 ]
 
 const router = createRouter({
