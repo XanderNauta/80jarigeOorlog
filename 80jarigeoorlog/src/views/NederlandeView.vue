@@ -1,13 +1,16 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-<div>
-  <h1> de Republiek der Zeven Verenigde Nederlanden!!!!!!!!!!!!!!!!</h1>
-</div>
+  <div id="app">
+    <Quiz />
+  </div>
 </template>
 
-<style scoped>
+<script lang="ts">
 
-</style>
+import Quiz from "@/components/Quiz.vue";
+
+export default {
+  components: {
+    Quiz,
+  },
+};
+</script>
